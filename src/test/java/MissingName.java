@@ -29,7 +29,7 @@ public class MissingName {
         numberField.sendKeys("123456789");
 
         WebElement messageField = driver.findElement(By.name("message"));
-        messageField.sendKeys("Test message");
+        messageField.sendKeys("This is a test message");
 
         // Find the submit button and click it
 

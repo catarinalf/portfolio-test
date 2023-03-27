@@ -21,7 +21,7 @@ public class MissingNumber {
         }
 
         WebElement nameField = driver.findElement(By.name("name"));
-        nameField.sendKeys("Name");
+        nameField.sendKeys("Test name");
 
         WebElement emailField = driver.findElement(By.name("email"));
         emailField.sendKeys("test@test.com");
@@ -30,7 +30,7 @@ public class MissingNumber {
         numberField.sendKeys("");
 
         WebElement messageField = driver.findElement(By.name("message"));
-        messageField.sendKeys("Test message");
+        messageField.sendKeys("This is a test message");
 
         // Find the submit button and click it
 
@@ -57,6 +57,9 @@ public class MissingNumber {
         else {
         System.out.println("Alert message was not displayed correctly");
         }
+    
+    driver.quit();
+
     }
 
 }

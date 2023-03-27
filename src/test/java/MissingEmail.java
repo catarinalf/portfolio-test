@@ -20,7 +20,7 @@ public class MissingEmail {
         }
 
         WebElement nameField = driver.findElement(By.name("name"));
-        nameField.sendKeys("Name");
+        nameField.sendKeys("Test name");
 
         WebElement emailField = driver.findElement(By.name("email"));
         emailField.sendKeys("");
@@ -29,7 +29,7 @@ public class MissingEmail {
         numberField.sendKeys("123456789");
 
         WebElement messageField = driver.findElement(By.name("message"));
-        messageField.sendKeys("Test message");
+        messageField.sendKeys("This is a test message");
 
         // Find the submit button and click it
 

@@ -20,7 +20,7 @@ public class MissingMessage {
         }
 
         WebElement nameField = driver.findElement(By.name("name"));
-        nameField.sendKeys("Name");
+        nameField.sendKeys("Test name");
 
         WebElement emailField = driver.findElement(By.name("email"));
         emailField.sendKeys("test@test.com");
