@@ -7,10 +7,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 public class MissingNumber {
 
     public static void main(String[] args) {
-
-        // If you want to test the code, please make sure to change the path to the MS Edge Driver
         
-        System.setProperty("webdriver.edge.driver", "D:/edgedriver_win64/msedgedriver.exe");
+        System.setProperty("webdriver.edge.driver", "edgedriver_win64/msedgedriver.exe");
         WebDriver driver = new EdgeDriver();
         driver.get("https://catarinalf.github.io/#contact");
 
